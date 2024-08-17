@@ -27,8 +27,6 @@ function StartGameScreen({ onPickNumber }) {
       ]);
       return;
     }
-
-    console.log(onPickNumber);
     onPickNumber(chosenNumber);
   }
 
